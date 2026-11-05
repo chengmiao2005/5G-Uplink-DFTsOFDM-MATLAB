@@ -1,0 +1,1367 @@
+[
+  {
+    "title": [
+      "NR: The New 5G Radio Access Technology"
+    ],
+    "author": [
+      {
+        "given": "Stefan",
+        "family": "Parkvall",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Erik",
+        "family": "Dahlman",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Anders",
+        "family": "Furuskar",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mattias",
+        "family": "Frenne",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "IEEE Communications Standards Magazine"
+    ],
+    "volume": "1",
+    "issue": "4",
+    "page": "24-30",
+    "published": {
+      "date-parts": [
+        [
+          2017,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.1109/mcomstd.2017.1700042",
+    "type": "journal-article",
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "URL": "https://doi.org/10.1109/mcomstd.2017.1700042",
+    "abstract": null,
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/7886829/8258582/08258595.pdf?arnumber=8258595",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "key": "nr2017",
+    "verification_url": "https://api.crossref.org/works/10.1109/mcomstd.2017.1700042",
+    "verification_date": "2026-10-27",
+    "intended_use": "5G NR context and scope"
+  },
+  {
+    "title": [
+      "5G: A Tutorial Overview of Standards, Trials, Challenges, Deployment, and Practice"
+    ],
+    "author": [
+      {
+        "given": "Mansoor",
+        "family": "Shafi",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Spark NZ, Wellington, New Zealand"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Andreas F.",
+        "family": "Molisch",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Ming Hsieh Department of Electrical Engineering, Viterbi School of Engineering, University of Southern California, Los Angeles, CA, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Peter J.",
+        "family": "Smith",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Mathematics and Statistics, Victoria University of Wellington, Wellington, New Zealand"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Thomas",
+        "family": "Haustein",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department Wireless Communications and Networks, Fraunhofer HHI, Berlin, Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Peiying",
+        "family": "Zhu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Huawei Technologies Canada, Ottawa, ON, Canada"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Prasan",
+        "family": "De Silva",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Spark NZ, Wellington, New Zealand"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Fredrik",
+        "family": "Tufvesson",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Electrical and Information Technology, Lund University, Lund, Sweden"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Anass",
+        "family": "Benjebbour",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "NTT DOCOMO, INC., 5G Laboratory, Yokosuka, Japan"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Gerhard",
+        "family": "Wunder",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Fraunhofer Heinrich-Herz-Institut, Berlin, Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "IEEE Journal on Selected Areas in Communications"
+    ],
+    "volume": "35",
+    "issue": "6",
+    "page": "1201-1221",
+    "published": {
+      "date-parts": [
+        [
+          2017,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1109/jsac.2017.2692307",
+    "type": "journal-article",
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "URL": "https://doi.org/10.1109/jsac.2017.2692307",
+    "abstract": null,
+    "link": [
+      {
+        "URL": "https://ieeexplore.ieee.org/ielam/49/7936679/7894280-aam.pdf",
+        "content-type": "application/pdf",
+        "content-version": "am",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/49/7936679/07894280.pdf?arnumber=7894280",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "key": "shafi2017",
+    "verification_url": "https://api.crossref.org/works/10.1109/jsac.2017.2692307",
+    "verification_date": "2026-10-27",
+    "intended_use": "5G background and requirements"
+  },
+  {
+    "title": [
+      "Single carrier FDMA for uplink wireless transmission"
+    ],
+    "author": [
+      {
+        "given": "Hyung",
+        "family": "Myung",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Junsung",
+        "family": "Lim",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "David",
+        "family": "Goodman",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "IEEE Vehicular Technology Magazine"
+    ],
+    "volume": "1",
+    "issue": "3",
+    "page": "30-38",
+    "published": {
+      "date-parts": [
+        [
+          2006,
+          9
+        ]
+      ]
+    },
+    "DOI": "10.1109/mvt.2006.307304",
+    "type": "journal-article",
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "URL": "https://doi.org/10.1109/mvt.2006.307304",
+    "abstract": null,
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx5/10209/4099336/04099344.pdf?arnumber=4099344",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "key": "myung2006",
+    "verification_url": "https://api.crossref.org/works/10.1109/mvt.2006.307304",
+    "verification_date": "2026-10-27",
+    "intended_use": "SC-FDMA architecture and uplink motivation"
+  },
+  {
+    "title": [
+      "Peak-To-Average Power Ratio of Single Carrier FDMA Signals with Pulse Shaping"
+    ],
+    "author": [
+      {
+        "given": "Hyung",
+        "family": "Myung",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Junsung",
+        "family": "Lim",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "David",
+        "family": "Goodman",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "2006 IEEE 17th International Symposium on Personal, Indoor and Mobile Radio Communications"
+    ],
+    "volume": null,
+    "issue": null,
+    "page": "1-5",
+    "published": {
+      "date-parts": [
+        [
+          2006,
+          9
+        ]
+      ]
+    },
+    "DOI": "10.1109/pimrc.2006.254407",
+    "type": "proceedings-article",
+    "publisher": "IEEE",
+    "URL": "https://doi.org/10.1109/pimrc.2006.254407",
+    "abstract": null,
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx5/4022243/4022244/04022700.pdf?arnumber=4022700",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "key": "myungpapr2006",
+    "verification_url": "https://api.crossref.org/works/10.1109/pimrc.2006.254407",
+    "verification_date": "2026-10-27",
+    "intended_use": "PAPR and subcarrier mapping"
+  },
+  {
+    "title": [
+      "Single-carrier frequency domain equalization"
+    ],
+    "author": [
+      {
+        "given": "F.",
+        "family": "Pancaldi",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "G.",
+        "family": "Vitetta",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "R.",
+        "family": "Kalbasi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "N.",
+        "family": "Al-Dhahir",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "M.",
+        "family": "Uysal",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "H.",
+        "family": "Mheidat",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "IEEE Signal Processing Magazine"
+    ],
+    "volume": "25",
+    "issue": "5",
+    "page": "37-56",
+    "published": {
+      "date-parts": [
+        [
+          2008,
+          9
+        ]
+      ]
+    },
+    "DOI": "10.1109/msp.2008.926657",
+    "type": "journal-article",
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "URL": "https://doi.org/10.1109/msp.2008.926657",
+    "abstract": null,
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx5/79/4607202/04607215.pdf?arnumber=4607215",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "key": "pancaldi2008",
+    "verification_url": "https://api.crossref.org/works/10.1109/msp.2008.926657",
+    "verification_date": "2026-10-27",
+    "intended_use": "Frequency-domain equalization and channel assumptions"
+  },
+  {
+    "title": [
+      "Modulation, coding and signal processing for wireless communications - An overview of peak-to-average power ratio reduction techniques for multicarrier transmission"
+    ],
+    "author": [
+      {
+        "family": "Seung Hee Han",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "family": "Jae Hong Lee",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "IEEE Wireless Communications"
+    ],
+    "volume": "12",
+    "issue": "2",
+    "page": "56-65",
+    "published": {
+      "date-parts": [
+        [
+          2005,
+          4
+        ]
+      ]
+    },
+    "DOI": "10.1109/mwc.2005.1421929",
+    "type": "journal-article",
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "URL": "https://doi.org/10.1109/mwc.2005.1421929",
+    "abstract": null,
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx5/7742/30716/01421929.pdf?arnumber=1421929",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "key": "han2005",
+    "verification_url": "https://api.crossref.org/works/10.1109/mwc.2005.1421929",
+    "verification_date": "2026-10-27",
+    "intended_use": "PAPR reduction methods and design criteria",
+    "display_title_source": "https://ieeexplore.ieee.org/document/1421929/"
+  },
+  {
+    "title": [
+      "An Overview: Peak-to-Average Power Ratio Reduction Techniques for OFDM Signals"
+    ],
+    "author": [
+      {
+        "family": "Tao Jiang",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "family": "Yiyan Wu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "IEEE Transactions on Broadcasting"
+    ],
+    "volume": "54",
+    "issue": "2",
+    "page": "257-268",
+    "published": {
+      "date-parts": [
+        [
+          2008,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1109/tbc.2008.915770",
+    "type": "journal-article",
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "URL": "https://doi.org/10.1109/tbc.2008.915770",
+    "abstract": null,
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx5/11/4529251/04446229.pdf?arnumber=4446229",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "key": "jiang2008",
+    "verification_url": "https://api.crossref.org/works/10.1109/tbc.2008.915770",
+    "verification_date": "2026-10-27",
+    "intended_use": "PAPR reduction taxonomy and tradeoffs"
+  },
+  {
+    "title": [
+      "Effects of clipping and filtering on the performance of OFDM"
+    ],
+    "author": [
+      {
+        "family": "Xiaodong Li",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "L.J.",
+        "family": "Cimini",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "IEEE Communications Letters"
+    ],
+    "volume": "2",
+    "issue": "5",
+    "page": "131-133",
+    "published": {
+      "date-parts": [
+        [
+          1998,
+          5
+        ]
+      ]
+    },
+    "DOI": "10.1109/4234.673657",
+    "type": "journal-article",
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "URL": "https://doi.org/10.1109/4234.673657",
+    "abstract": null,
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx4/4234/14801/00673657.pdf?arnumber=673657",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "key": "licimini1998",
+    "verification_url": "https://api.crossref.org/works/10.1109/4234.673657",
+    "verification_date": "2026-10-27",
+    "intended_use": "Clipping and filtering impairments"
+  },
+  {
+    "title": [
+      "On the distribution of the peak-to-average power ratio in OFDM signals"
+    ],
+    "author": [
+      {
+        "given": "H.",
+        "family": "Ochiai",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "H.",
+        "family": "Imai",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "IEEE Transactions on Communications"
+    ],
+    "volume": "49",
+    "issue": "2",
+    "page": "282-289",
+    "published": {
+      "date-parts": [
+        [
+          2001
+        ]
+      ]
+    },
+    "DOI": "10.1109/26.905885",
+    "type": "journal-article",
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "URL": "https://doi.org/10.1109/26.905885",
+    "abstract": null,
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx5/26/19592/00905885.pdf?arnumber=905885",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "key": "ochiai2001",
+    "verification_url": "https://api.crossref.org/works/10.1109/26.905885",
+    "verification_date": "2026-10-27",
+    "intended_use": "PAPR statistics and CCDF interpretation"
+  },
+  {
+    "title": [
+      "A Survey on Multicarrier Communications: Prototype Filters, Lattice Structures, and Implementation Aspects"
+    ],
+    "author": [
+      {
+        "given": "Alphan",
+        "family": "Sahin",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ismail",
+        "family": "Guvenc",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Huseyin",
+        "family": "Arslan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "IEEE Communications Surveys &amp; Tutorials"
+    ],
+    "volume": "16",
+    "issue": "3",
+    "page": "1312-1338",
+    "published": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "DOI": "10.1109/surv.2013.121213.00263",
+    "type": "journal-article",
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "URL": "https://doi.org/10.1109/surv.2013.121213.00263",
+    "abstract": null,
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/9739/6880447/06687311.pdf?arnumber=6687311",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "key": "sahin2014",
+    "verification_url": "https://api.crossref.org/works/10.1109/surv.2013.121213.00263",
+    "verification_date": "2026-10-27",
+    "intended_use": "Multicarrier waveform context"
+  },
+  {
+    "title": [
+      "OFDM Versus Filter Bank Multicarrier"
+    ],
+    "author": [
+      {
+        "given": "Behrouz",
+        "family": "Farhang-Boroujeny",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "IEEE Signal Processing Magazine"
+    ],
+    "volume": "28",
+    "issue": "3",
+    "page": "92-112",
+    "published": {
+      "date-parts": [
+        [
+          2011,
+          5
+        ]
+      ]
+    },
+    "DOI": "10.1109/msp.2011.940267",
+    "type": "journal-article",
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "URL": "https://doi.org/10.1109/msp.2011.940267",
+    "abstract": null,
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx5/79/5753066/05753092.pdf?arnumber=5753092",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "key": "boroujeny2011",
+    "verification_url": "https://api.crossref.org/works/10.1109/msp.2011.940267",
+    "verification_date": "2026-10-27",
+    "intended_use": "Alternative waveform context"
+  },
+  {
+    "title": [
+      "Data Transmission by Frequency-Division Multiplexing Using the Discrete Fourier Transform"
+    ],
+    "author": [
+      {
+        "given": "S.",
+        "family": "Weinstein",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "P.",
+        "family": "Ebert",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "IEEE Transactions on Communication Technology"
+    ],
+    "volume": "19",
+    "issue": "5",
+    "page": "628-634",
+    "published": {
+      "date-parts": [
+        [
+          1971,
+          10
+        ]
+      ]
+    },
+    "DOI": "10.1109/tcom.1971.1090705",
+    "type": "journal-article",
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "URL": "https://doi.org/10.1109/tcom.1971.1090705",
+    "abstract": null,
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx5/4547467/7929860/01090705.pdf?arnumber=1090705",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "key": "weinstein1971",
+    "verification_url": "https://api.crossref.org/works/10.1109/tcom.1971.1090705",
+    "verification_date": "2026-10-27",
+    "intended_use": "DFT-based multicarrier foundations"
+  },
+  {
+    "title": [
+      "Multicarrier modulation for data transmission: an idea whose time has come"
+    ],
+    "author": [
+      {
+        "given": "J.A.C.",
+        "family": "Bingham",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "IEEE Communications Magazine"
+    ],
+    "volume": "28",
+    "issue": "5",
+    "page": "5-14",
+    "published": {
+      "date-parts": [
+        [
+          1990,
+          5
+        ]
+      ]
+    },
+    "DOI": "10.1109/35.54342",
+    "type": "journal-article",
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "URL": "https://doi.org/10.1109/35.54342",
+    "abstract": null,
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx1/35/1953/00054342.pdf?arnumber=54342",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "key": "bingham1990",
+    "verification_url": "https://api.crossref.org/works/10.1109/35.54342",
+    "verification_date": "2026-10-27",
+    "intended_use": "Multicarrier background"
+  },
+  {
+    "title": [
+      "Initial Performance Evaluation of DFT-Spread OFDM Based SC-FDMA for UTRA LTE Uplink"
+    ],
+    "author": [
+      {
+        "given": "Basuki E.",
+        "family": "Priyanto",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Humbert",
+        "family": "Codina",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sergi",
+        "family": "Rene",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Troels B.",
+        "family": "Sorensen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Preben",
+        "family": "Mogensen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "2007 IEEE 65th Vehicular Technology Conference - VTC2007-Spring"
+    ],
+    "volume": null,
+    "issue": null,
+    "page": "3175-3179",
+    "published": {
+      "date-parts": [
+        [
+          2007,
+          4
+        ]
+      ]
+    },
+    "DOI": "10.1109/vetecs.2007.650",
+    "type": "proceedings-article",
+    "publisher": "IEEE",
+    "URL": "https://doi.org/10.1109/vetecs.2007.650",
+    "abstract": null,
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx5/4196544/4212428/04213078.pdf?arnumber=4213078",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "key": "priyanto2007",
+    "verification_url": "https://api.crossref.org/works/10.1109/vetecs.2007.650",
+    "verification_date": "2026-10-27",
+    "intended_use": "LTE uplink precursor evaluation; do not describe as a 5G experiment"
+  },
+  {
+    "title": [
+      "Transparent Tx and Rx Waveform Processing for 5G New Radio Mobile Communications"
+    ],
+    "author": [
+      {
+        "given": "Toni",
+        "family": "Levanen",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Juho",
+        "family": "Pirskanen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kari",
+        "family": "Pajukoski",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Markku",
+        "family": "Renfors",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mikko",
+        "family": "Valkama",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "IEEE Wireless Communications"
+    ],
+    "volume": "26",
+    "issue": "1",
+    "page": "128-136",
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          2
+        ]
+      ]
+    },
+    "DOI": "10.1109/mwc.2018.1800015",
+    "type": "journal-article",
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "URL": "https://doi.org/10.1109/mwc.2018.1800015",
+    "abstract": null,
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/7742/8641408/08469813.pdf?arnumber=8469813",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "key": "levanen2019",
+    "verification_url": "https://api.crossref.org/works/10.1109/mwc.2018.1800015",
+    "verification_date": "2026-10-27",
+    "intended_use": "5G NR waveform processing and receiver design"
+  },
+  {
+    "title": [
+      "OFDMA vs. SC-FDMA: performance comparison in local area imt-a scenarios"
+    ],
+    "author": [
+      {
+        "given": "G.",
+        "family": "Berardinelli",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "L.A.",
+        "family": "Ruiz de Temino",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "S.",
+        "family": "Frattasi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "M.",
+        "family": "Rahman",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "P.",
+        "family": "Mogensen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "IEEE Wireless Communications"
+    ],
+    "volume": "15",
+    "issue": "5",
+    "page": "64-72",
+    "published": {
+      "date-parts": [
+        [
+          2008,
+          10
+        ]
+      ]
+    },
+    "DOI": "10.1109/mwc.2008.4653134",
+    "type": "journal-article",
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "URL": "https://doi.org/10.1109/mwc.2008.4653134",
+    "abstract": null,
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx5/7742/4653121/04653134.pdf?arnumber=4653134",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "key": "berardinelli2008",
+    "verification_url": "https://api.crossref.org/works/10.1109/mwc.2008.4653134",
+    "verification_date": "2026-10-27",
+    "intended_use": "OFDMA versus SC-FDMA tradeoffs; pre-5G context"
+  },
+  {
+    "title": [
+      "Performance analysis of deliberately clipped OFDM signals"
+    ],
+    "author": [
+      {
+        "given": "H.",
+        "family": "Ochiai",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "H.",
+        "family": "Imai",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "IEEE Transactions on Communications"
+    ],
+    "volume": "50",
+    "issue": "1",
+    "page": "89-101",
+    "published": {
+      "date-parts": [
+        [
+          2002
+        ]
+      ]
+    },
+    "DOI": "10.1109/26.975762",
+    "type": "journal-article",
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "URL": "https://doi.org/10.1109/26.975762",
+    "abstract": null,
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx5/26/21065/00975762.pdf?arnumber=975762",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "key": "ochiaiclip2002",
+    "verification_url": "https://api.crossref.org/works/10.1109/26.975762",
+    "verification_date": "2026-10-27",
+    "intended_use": "Nonlinear distortion and limitations of clipping models"
+  }
+]

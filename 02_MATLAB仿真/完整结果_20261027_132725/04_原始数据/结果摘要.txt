@@ -1,0 +1,14 @@
+Mode: full
+Seed: 20261027
+MATLAB: 24.1.0.3303086 (R2024a) Update 9
+Curve order: CP QPSK, DFTs QPSK, CP 16QAM, DFTs 16QAM.
+PAPR q99 / q999 in dB:
+CP-OFDM QPSK: 9.9014 / 10.8147
+DFT-s-OFDM QPSK: 6.9846 / 7.5629
+CP-OFDM 16-QAM: 9.8912 / 10.9292
+DFT-s-OFDM 16-QAM: 7.7970 / 8.3986
+No zero-error point has been replaced by a fabricated positive BER.
+Zero-error BER/CCDF points are omitted on logarithmic plots; raw counts are in CSV.
+Rayleigh uncertainty: block-level standard error, not an iid-bit interval.
+PA results use pre-PA energy. Output power loss is saved; no battery-efficiency claim.
+Full mode is recommended for the report. Quick mode is for debugging.

@@ -1,0 +1,56 @@
+Mode full, seed 20261027, MATLAB 24.1.0.3303086 (R2024a) Update 9
+Output F:\数字通讯\5G_Uplink_DFTsOFDM_starter\matlab\results\full_20261027_132725
+1/6 PAPR statistics
+2/6 BER in AWGN
+  M=4, Eb/N0=0 dB, BER=[0.0854 0.085], bits=294912
+  M=4, Eb/N0=2 dB, BER=[0.0427 0.0426], bits=294912
+  M=4, Eb/N0=4 dB, BER=[0.0149 0.015], bits=294912
+  M=4, Eb/N0=6 dB, BER=[0.00308 0.00329], bits=331776
+  M=4, Eb/N0=8 dB, BER=[0.000315 0.000305], bits=1999872
+  M=4, Eb/N0=10 dB, BER=[7.5e-06 1.1e-05], bits=1999872
+  M=4, Eb/N0=12 dB, BER=[0 0], bits=1999872
+  M=4, Eb/N0=14 dB, BER=[0 0], bits=1999872
+  M=4, Eb/N0=16 dB, BER=[0 0], bits=1999872
+  M=16, Eb/N0=0 dB, BER=[0.149 0.149], bits=589824
+  M=16, Eb/N0=2 dB, BER=[0.104 0.104], bits=589824
+  M=16, Eb/N0=4 dB, BER=[0.0638 0.0641], bits=589824
+  M=16, Eb/N0=6 dB, BER=[0.0316 0.0313], bits=589824
+  M=16, Eb/N0=8 dB, BER=[0.0113 0.0112], bits=589824
+  M=16, Eb/N0=10 dB, BER=[0.00243 0.00233], bits=589824
+  M=16, Eb/N0=12 dB, BER=[0.000224 0.000235], bits=1999872
+  M=16, Eb/N0=14 dB, BER=[4.5e-06 4.5e-06], bits=1999872
+  M=16, Eb/N0=16 dB, BER=[0 0], bits=1999872
+3/6 BER in Rayleigh
+  M=4, Eb/N0=0 dB, BER=[0.153 0.205], bits=294912
+  M=4, Eb/N0=3 dB, BER=[0.0945 0.134], bits=294912
+  M=4, Eb/N0=6 dB, BER=[0.0519 0.0838], bits=294912
+  M=4, Eb/N0=9 dB, BER=[0.0313 0.0525], bits=294912
+  M=4, Eb/N0=12 dB, BER=[0.0159 0.0294], bits=294912
+  M=4, Eb/N0=15 dB, BER=[0.0084 0.0144], bits=294912
+  M=4, Eb/N0=18 dB, BER=[0.00408 0.00644], bits=294912
+  M=4, Eb/N0=21 dB, BER=[0.00206 0.00324], bits=497664
+  M=4, Eb/N0=24 dB, BER=[0.00104 0.00143], bits=958464
+  M=16, Eb/N0=0 dB, BER=[0.206 0.254], bits=589824
+  M=16, Eb/N0=3 dB, BER=[0.144 0.189], bits=589824
+  M=16, Eb/N0=6 dB, BER=[0.0952 0.137], bits=589824
+  M=16, Eb/N0=9 dB, BER=[0.0545 0.0846], bits=589824
+  M=16, Eb/N0=12 dB, BER=[0.0298 0.0499], bits=589824
+  M=16, Eb/N0=15 dB, BER=[0.0158 0.0276], bits=589824
+  M=16, Eb/N0=18 dB, BER=[0.00802 0.014], bits=589824
+  M=16, Eb/N0=21 dB, BER=[0.00415 0.00745], bits=589824
+  M=16, Eb/N0=24 dB, BER=[0.00193 0.00315], bits=589824
+4/6 and 5/6 PA back-off experiment
+  IBO=0 dB, BER=[0.023 0.00581], EVM=[19.80 13.39] %
+  IBO=1 dB, BER=[0.0123 0.00299], EVM=[16.81 10.45] %
+  IBO=2 dB, BER=[0.00512 0.00121], EVM=[13.65 7.53] %
+  IBO=3 dB, BER=[0.00161 0.000373], EVM=[10.57 4.98] %
+  IBO=4 dB, BER=[0.000354 8.68e-05], EVM=[7.63 2.86] %
+  IBO=5 dB, BER=[7.07e-05 1.43e-05], EVM=[5.11 1.39] %
+  IBO=6 dB, BER=[1.87e-05 6.08e-06], EVM=[3.08 0.52] %
+  IBO=7 dB, BER=[1.22e-05 6.94e-06], EVM=[1.60 0.15] %
+  IBO=8 dB, BER=[7.81e-06 3.91e-06], EVM=[0.72 0.02] %
+  IBO=9 dB, BER=[6.08e-06 3.47e-06], EVM=[0.29 0.00] %
+  IBO=10 dB, BER=[6.94e-06 6.51e-06], EVM=[0.07 0.00] %
+6/6 Power spectral density
+Complete. Return this entire results folder for report and slides.
+Keep raw CSV and MAT files, not just screenshots.

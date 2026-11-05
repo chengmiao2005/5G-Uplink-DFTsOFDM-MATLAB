@@ -1,0 +1,33 @@
+[1] S. Parkvall, E. Dahlman, A. Furuskar, and M. Frenne, "NR: The New 5G Radio Access Technology," IEEE Communications Standards Magazine, vol. 1, no. 4, pp. 24-30, 2017, doi: 10.1109/mcomstd.2017.1700042.
+
+[2] M. Shafi et al., "5G: A Tutorial Overview of Standards, Trials, Challenges, Deployment, and Practice," IEEE Journal on Selected Areas in Communications, vol. 35, no. 6, pp. 1201-1221, 2017, doi: 10.1109/jsac.2017.2692307.
+
+[3] H. Myung, J. Lim, and D. Goodman, "Single carrier FDMA for uplink wireless transmission," IEEE Vehicular Technology Magazine, vol. 1, no. 3, pp. 30-38, 2006, doi: 10.1109/mvt.2006.307304.
+
+[4] H. Myung, J. Lim, and D. Goodman, "Peak-To-Average Power Ratio of Single Carrier FDMA Signals with Pulse Shaping," in 2006 IEEE 17th International Symposium on Personal, Indoor and Mobile Radio Communications, pp. 1-5, 2006, doi: 10.1109/pimrc.2006.254407.
+
+[5] F. Pancaldi, G. Vitetta, R. Kalbasi, N. Al-Dhahir, M. Uysal, and H. Mheidat, "Single-carrier frequency domain equalization," IEEE Signal Processing Magazine, vol. 25, no. 5, pp. 37-56, 2008, doi: 10.1109/msp.2008.926657.
+
+[6] S. H. Han and J. H. Lee, "An overview of peak-to-average power ratio reduction techniques for multicarrier transmission," IEEE Wireless Communications, vol. 12, no. 2, pp. 56-65, 2005, doi: 10.1109/mwc.2005.1421929.
+
+[7] T. Jiang and Y. Wu, "An Overview: Peak-to-Average Power Ratio Reduction Techniques for OFDM Signals," IEEE Transactions on Broadcasting, vol. 54, no. 2, pp. 257-268, 2008, doi: 10.1109/tbc.2008.915770.
+
+[8] X. Li and L. J. Cimini, "Effects of clipping and filtering on the performance of OFDM," IEEE Communications Letters, vol. 2, no. 5, pp. 131-133, 1998, doi: 10.1109/4234.673657.
+
+[9] H. Ochiai and H. Imai, "On the distribution of the peak-to-average power ratio in OFDM signals," IEEE Transactions on Communications, vol. 49, no. 2, pp. 282-289, 2001, doi: 10.1109/26.905885.
+
+[10] A. Sahin, I. Guvenc, and H. Arslan, "A Survey on Multicarrier Communications: Prototype Filters, Lattice Structures, and Implementation Aspects," IEEE Communications Surveys & Tutorials, vol. 16, no. 3, pp. 1312-1338, 2014, doi: 10.1109/surv.2013.121213.00263.
+
+[11] B. Farhang-Boroujeny, "OFDM Versus Filter Bank Multicarrier," IEEE Signal Processing Magazine, vol. 28, no. 3, pp. 92-112, 2011, doi: 10.1109/msp.2011.940267.
+
+[12] S. Weinstein and P. Ebert, "Data Transmission by Frequency-Division Multiplexing Using the Discrete Fourier Transform," IEEE Transactions on Communication Technology, vol. 19, no. 5, pp. 628-634, 1971, doi: 10.1109/tcom.1971.1090705.
+
+[13] J. A. C. Bingham, "Multicarrier modulation for data transmission: an idea whose time has come," IEEE Communications Magazine, vol. 28, no. 5, pp. 5-14, 1990, doi: 10.1109/35.54342.
+
+[14] B. E. Priyanto, H. Codina, S. Rene, T. B. Sorensen, and P. Mogensen, "Initial Performance Evaluation of DFT-Spread OFDM Based SC-FDMA for UTRA LTE Uplink," in 2007 IEEE 65th Vehicular Technology Conference - VTC2007-Spring, pp. 3175-3179, 2007, doi: 10.1109/vetecs.2007.650.
+
+[15] T. Levanen, J. Pirskanen, K. Pajukoski, M. Renfors, and M. Valkama, "Transparent Tx and Rx Waveform Processing for 5G New Radio Mobile Communications," IEEE Wireless Communications, vol. 26, no. 1, pp. 128-136, 2019, doi: 10.1109/mwc.2018.1800015.
+
+[16] G. Berardinelli, L. A. Ruiz de Temino, S. Frattasi, M. Rahman, and P. Mogensen, "OFDMA vs. SC-FDMA: performance comparison in local area imt-a scenarios," IEEE Wireless Communications, vol. 15, no. 5, pp. 64-72, 2008, doi: 10.1109/mwc.2008.4653134.
+
+[17] H. Ochiai and H. Imai, "Performance analysis of deliberately clipped OFDM signals," IEEE Transactions on Communications, vol. 50, no. 1, pp. 89-101, 2002, doi: 10.1109/26.975762.

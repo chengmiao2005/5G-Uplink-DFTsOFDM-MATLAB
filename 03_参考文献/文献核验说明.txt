@@ -1,0 +1,107 @@
+17 English IEEE journal/conference papers. No websites, technical reports, standards, or books are counted as references.
+Metadata verification confirms existence and bibliographic details, not full-text review of every claim.
+Full-text/abstract claim checks must be completed when the final literature survey is written.
+Crossref candidates were manually checked: Jiang uses candidate 2; Li/Cimini uses the journal version.
+The equalization survey is Pancaldi et al. 2008, not Falconer et al. 2002.
+
+[1] nr2017
+Publication metadata verified from publisher-deposited Crossref record.
+DOI: 10.1109/mcomstd.2017.1700042
+Intended use: 5G NR context and scope
+Record: https://api.crossref.org/works/10.1109/mcomstd.2017.1700042
+
+[2] shafi2017
+Publication metadata verified from publisher-deposited Crossref record.
+DOI: 10.1109/jsac.2017.2692307
+Intended use: 5G background and requirements
+Record: https://api.crossref.org/works/10.1109/jsac.2017.2692307
+
+[3] myung2006
+Publication metadata verified from publisher-deposited Crossref record.
+DOI: 10.1109/mvt.2006.307304
+Intended use: SC-FDMA architecture and uplink motivation
+Record: https://api.crossref.org/works/10.1109/mvt.2006.307304
+
+[4] myungpapr2006
+Publication metadata verified from publisher-deposited Crossref record.
+DOI: 10.1109/pimrc.2006.254407
+Intended use: PAPR and subcarrier mapping
+Record: https://api.crossref.org/works/10.1109/pimrc.2006.254407
+
+[5] pancaldi2008
+Publication metadata verified from publisher-deposited Crossref record.
+DOI: 10.1109/msp.2008.926657
+Intended use: Frequency-domain equalization and channel assumptions
+Record: https://api.crossref.org/works/10.1109/msp.2008.926657
+
+[6] han2005
+Publication metadata verified from publisher-deposited Crossref record.
+DOI: 10.1109/mwc.2005.1421929
+Intended use: PAPR reduction methods and design criteria
+Record: https://api.crossref.org/works/10.1109/mwc.2005.1421929
+
+[7] jiang2008
+Publication metadata verified from publisher-deposited Crossref record.
+DOI: 10.1109/tbc.2008.915770
+Intended use: PAPR reduction taxonomy and tradeoffs
+Record: https://api.crossref.org/works/10.1109/tbc.2008.915770
+
+[8] licimini1998
+Publication metadata verified from publisher-deposited Crossref record.
+DOI: 10.1109/4234.673657
+Intended use: Clipping and filtering impairments
+Record: https://api.crossref.org/works/10.1109/4234.673657
+
+[9] ochiai2001
+Publication metadata verified from publisher-deposited Crossref record.
+DOI: 10.1109/26.905885
+Intended use: PAPR statistics and CCDF interpretation
+Record: https://api.crossref.org/works/10.1109/26.905885
+
+[10] sahin2014
+Publication metadata verified from publisher-deposited Crossref record.
+DOI: 10.1109/surv.2013.121213.00263
+Intended use: Multicarrier waveform context
+Record: https://api.crossref.org/works/10.1109/surv.2013.121213.00263
+
+[11] boroujeny2011
+Publication metadata verified from publisher-deposited Crossref record.
+DOI: 10.1109/msp.2011.940267
+Intended use: Alternative waveform context
+Record: https://api.crossref.org/works/10.1109/msp.2011.940267
+
+[12] weinstein1971
+Publication metadata verified from publisher-deposited Crossref record.
+DOI: 10.1109/tcom.1971.1090705
+Intended use: DFT-based multicarrier foundations
+Record: https://api.crossref.org/works/10.1109/tcom.1971.1090705
+
+[13] bingham1990
+Publication metadata verified from publisher-deposited Crossref record.
+DOI: 10.1109/35.54342
+Intended use: Multicarrier background
+Record: https://api.crossref.org/works/10.1109/35.54342
+
+[14] priyanto2007
+Publication metadata verified from publisher-deposited Crossref record.
+DOI: 10.1109/vetecs.2007.650
+Intended use: LTE uplink precursor evaluation; do not describe as a 5G experiment
+Record: https://api.crossref.org/works/10.1109/vetecs.2007.650
+
+[15] levanen2019
+Publication metadata verified from publisher-deposited Crossref record.
+DOI: 10.1109/mwc.2018.1800015
+Intended use: 5G NR waveform processing and receiver design
+Record: https://api.crossref.org/works/10.1109/mwc.2018.1800015
+
+[16] berardinelli2008
+Publication metadata verified from publisher-deposited Crossref record.
+DOI: 10.1109/mwc.2008.4653134
+Intended use: OFDMA versus SC-FDMA tradeoffs; pre-5G context
+Record: https://api.crossref.org/works/10.1109/mwc.2008.4653134
+
+[17] ochiaiclip2002
+Publication metadata verified from publisher-deposited Crossref record.
+DOI: 10.1109/26.975762
+Intended use: Nonlinear distortion and limitations of clipping models
+Record: https://api.crossref.org/works/10.1109/26.975762

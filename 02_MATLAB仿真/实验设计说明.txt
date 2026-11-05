@@ -1,0 +1,95 @@
+EXPERIMENT DESIGN AND DEFINITIONS
+
+Research question
+Under matched bandwidth, QAM order, CP overhead, and mean PA-input energy,
+how does localized DFT spreading change PAPR, error probability, and
+distortion relative to CP-OFDM in a simplified 5G uplink waveform study?
+
+Scope
+Single user, SISO, uncoded QPSK and Gray 16-QAM. Ideal synchronization.
+Perfect channel knowledge. Localized allocation of 72 contiguous carriers.
+Nfft=256, Ncp=18, subcarrier spacing=15 kHz. Waveform experiments use L=4
+oversampling (N=1024, CP=72 samples) without changing bandwidth or duration.
+The fixed CP is a teaching simplification. No claim of full NR compliance.
+
+System model
+d is a K by 1 vector of unit-average-energy QAM symbols, K=72.
+F_K and F_N are unitary DFT matrices. P maps K carriers to N FFT bins.
+CP-OFDM:       x = F_N^H P d.
+DFT-s-OFDM:    x = F_N^H P F_K d.
+Each useful block has expected energy K and N samples.
+Mean input sample power = K/N. CP multiplies expected block energy by
+c=(Nfft+Ncp)/Nfft. The signal energy per information bit is c/log2(M).
+Complex noise variance per FFT bin is therefore
+N0 = c / (log2(M) * 10^(EbN0dB/10)).
+This convention explicitly includes CP energy but excludes coding/pilot cost.
+
+Linear channel
+AWGN: H[k]=1.
+Rayleigh: four independent circular complex Gaussian taps with average
+powers proportional to [1,10^(-3/10),10^(-6/10),10^(-9/10)] at base-rate
+delays [0,1,3,5]. Their ensemble average total power is one. Individual
+realizations are NOT normalized; doing so would suppress block fading.
+Taps remain constant within one block and are independent across blocks.
+There is no Doppler/mobility model. CP=18 base-rate samples exceeds delay 5.
+After valid CP removal: Y[k]=H[k]X[k]+W[k].
+ZF: Z[k]=Y[k]/H[k]. DFT-s-OFDM applies F_K^H after equalization.
+The efficient BER loop uses this exactly equivalent frequency-domain model.
+The built-in test separately compares it with CP insertion, linear time-domain
+convolution, CP removal, and FFT. Deep fades are not clipped or discarded.
+No claim is made that ZF is an optimal receiver.
+
+Why AWGN should be a control
+Unitary spreading preserves noise statistics and energy. With a linear
+AWGN channel, matched QAM and matched Eb/N0, both waveforms should follow
+the same theoretical BER within Monte Carlo variability. A large gap is a
+reason to debug scaling, mapping, or noise, not automatically a benefit.
+
+Nonlinear experiment
+Use a memoryless hard limiter as an illustrative PA model:
+g(x)=x min(1,A/|x|), with the zero-input value defined as zero.
+IBO=10 log10(A^2/(K/N)). At each IBO, both waveforms have the same threshold
+and same ensemble PA-input mean power. No output-power renormalization.
+Eb/N0 remains referenced to pre-PA energy. Output/input power ratio is
+reported separately, because clipping changes radiated energy.
+For each waveform/IBO, a separate 512-block calibration sequence estimates
+the scalar gain alpha=Re(sum(conj(x)g(x)))/sum(|x|^2).
+The receiver divides by alpha, an idealized gain-estimation assumption.
+This is not a measured amplifier, not an efficiency model, and does not
+include AM/PM conversion or memory. Do not infer battery-life savings.
+The PA BER experiment uses 16-QAM, an AWGN channel, and pre-PA Eb/N0=14 dB.
+The EVM experiment removes noise to isolate in-band nonlinear distortion.
+
+Metrics
+PAPR = max |x[n]|^2 / mean |x[n]|^2, measured on the useful oversampled block.
+CCDF(z) = empirical probability that PAPR in dB exceeds z.
+BER = erroneous information bits / tested information bits.
+EVM = 100 sqrt(sum |dhat-d|^2 / sum |d|^2), after scalar gain correction.
+PSD uses a Hann-window Welch estimator, half overlap, including CP and
+block boundaries. All four curves share the linear CP-OFDM peak reference.
+Rectangular transmit pulses remain unchanged. DFT spreading is not a filter.
+
+Sampling and uncertainty
+Quick: 3000 PAPR blocks and up to 150000 bits per BER point, with at least
+256 independent blocks where the bit budget permits. Used only to debug.
+Full: 30000 PAPR blocks and up to 2000000 bits per BER point, with at least
+2048 blocks. Stop when both waveforms reach 1000 errors after the minimum
+block count, or when the common bit budget is exhausted.
+Full PA experiment: 8000 blocks per IBO per waveform. Seed=20261027.
+Paired comparisons share data, channel realizations, and frequency-domain
+noise within each point. New blocks are independent within the stated model.
+CSV includes actual bit counts and errors, not only rounded BER.
+Rayleigh errors within a block are correlated. Save the empirical standard
+error of block BERs rather than an iid-bit confidence interval.
+Zero-error points remain exactly zero in raw CSV and are omitted on log plots.
+The absence of observed errors is not proof of an error-free link.
+PAPR q99 is more stable than q999. Avoid over-interpreting a small tail count.
+
+Interpretation checklist
+1. Check both AWGN curves against theoretical QPSK/16-QAM references first.
+2. Compare PAPR at the same CCDF and report the tested block count.
+3. Interpret multipath BER with the explicitly chosen ZF receiver.
+4. Read PA BER together with EVM, gain, and output power loss.
+5. Do not claim a bandwidth increase, universal BER superiority, real battery
+   savings, coverage gain, or full standards compliance from this experiment.
+6. Report all measured outcomes, including null results or disadvantages.
