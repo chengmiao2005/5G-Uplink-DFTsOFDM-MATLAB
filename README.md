@@ -1,44 +1,78 @@
-# 5G 上行通信：CP-OFDM 与 DFT-s-OFDM 仿真比较
+# 5G Uplink Waveform Comparison in MATLAB
 
-本科数字通信课程项目。使用 MATLAB，在相同带宽、调制阶数和平均输入能量下，比较 CP-OFDM 与局部映射 DFT-s-OFDM 的峰均比（PAPR）、误码率（BER）、误差矢量幅度（EVM）及功率谱密度（PSD）。
+**MATLAB · Digital Communications · CP-OFDM · DFT-s-OFDM · Waveform Simulation**
 
-本仓库保存中英文报告测验版，以及报告对应的代码、真实仿真数据和图表。中文报告采用 2026-11-05 本地已保存的版本；英文报告保留当前测验版。两份文稿可分别继续修改，不承诺逐段同步。
+[中文说明](README_CN.md) · [English report](01_测验报告/英文报告_测验版.docx) · [中文报告](01_测验报告/中文报告_测验版.docx) · [MATLAB quick start](#run-the-project)
 
-## 阅读报告
+An undergraduate digital communications project comparing CP-OFDM and localized DFT-s-OFDM under matched bandwidth, modulation order and average input energy. The simulations examine peak-to-average power ratio (PAPR), bit error rate (BER), clipping distortion and power spectral density (PSD).
 
-- [中文报告_测验版.docx](01_测验报告/中文报告_测验版.docx)
-- [英文报告_测验版.docx](01_测验报告/英文报告_测验版.docx)
+**Project scope:** a simplified single-user 5G uplink waveform study with uncoded QPSK and 16-QAM, ideal synchronization, known channels and zero-forcing (ZF) equalization. The repository contains saved MATLAB results and working report drafts; it does not implement a complete 3GPP NR link.
 
-报告包含系统模型、仿真设置、六幅结果图和 17 篇英文论文参考文献，附录含 MATLAB 代码。Word 文件可下载后打开。
+## Highlights
 
-## 仓库内容
+| Comparison | Result in the saved full run |
+|---|---|
+| PAPR, QPSK | At the 99th percentile, DFT-s-OFDM reduces PAPR from **9.90 dB to 6.98 dB** |
+| PAPR, 16-QAM | At the same percentile, PAPR falls from **9.89 dB to 7.80 dB** |
+| Linear AWGN channel | Both waveforms have similar BER at matched modulation order and bit energy |
+| Rayleigh multipath with ZF | DFT-s-OFDM has higher BER in this configuration, despite its lower PAPR |
+| Hard-limiter experiment | At 2 dB input back-off and 14 dB pre-amplifier Eb/N0, 16-QAM BER falls from **0.00512 to 0.00121** with DFT spreading |
+| Saved evidence | Six result figures, CSV tables, native MAT/FIG files and execution logs |
 
-| 目录 | 内容 |
-| --- | --- |
-| `01_测验报告` | 中文和英文 Word 测验版 |
-| `02_MATLAB仿真` | MATLAB 程序、实验设计说明、完整运行结果 |
-| `03_参考文献` | IEEE 格式条目、BibTeX 和文献核验资料 |
+### Lower peaks under the same bandwidth and modulation
 
-现有完整结果位于 `02_MATLAB仿真/完整结果_20261027_132725`，包含 PNG 图片、PDF 矢量图、MATLAB FIG 图形、CSV 数据、MAT 数据和运行日志。
+![PAPR exceedance probability for CP-OFDM and DFT-s-OFDM](02_MATLAB仿真/完整结果_20261027_132725/01_结果图片/图1_峰均比超越概率.png)
 
-## 运行方法
+The full run uses 30,000 waveform blocks for each PAPR curve. The 99th-percentile reduction is about 2.92 dB for QPSK and 2.09 dB for 16-QAM.
 
-原始结果由 MATLAB R2024a 生成。下载仓库后，将 MATLAB 当前文件夹切换到 `02_MATLAB仿真`，依次运行：
+### Error performance depends on the channel and receiver
+
+![BER in the simulated Rayleigh multipath channel with ZF equalization](02_MATLAB仿真/完整结果_20261027_132725/01_结果图片/图3_瑞利衰落误码率.png)
+
+The Rayleigh/ZF result retains a disadvantage of DFT spreading: a lower PAPR does not imply a lower BER in every channel. The linear AWGN comparison and the nonlinear hard-limiter experiment are separate cases in the dataset.
+
+## Run the project
+
+The archived full run used **MATLAB R2024a**. Download the repository and set MATLAB Current Folder to `02_MATLAB仿真`, then run:
 
 ```matlab
-run_5g_uplink('test')  % 先检查调制、能量归一化及收发链路
-run_5g_uplink('full')  % 运行完整仿真
+run_5g_uplink('test')  % Deterministic modem, energy and transmit/receive checks
+run_5g_uplink('full')  % Full Monte Carlo simulation
 ```
 
-新结果写入程序所在目录下的 `results/full_日期_时间` 文件夹。仓库中的已整理结果保留在独立目录中。
+A shorter debugging run is also available:
 
-## 主要设置和结果
+```matlab
+run_5g_uplink('quick')
+```
 
-使用未编码 QPSK 和 16-QAM、单用户 SISO、理想同步、已知信道与 ZF 均衡。基础 FFT 长度为 256，分配 72 个连续子载波，循环前缀长度为 18，波形实验采用四倍过采样。
+New runs write to `02_MATLAB仿真/results/<mode>_<timestamp>/`. The committed full-run evidence remains in `02_MATLAB仿真/完整结果_20261027_132725/`.
 
-- 在本次仿真的第 99 百分位，DFT-s-OFDM 的 PAPR 相对 CP-OFDM 下降约 2.92 dB（QPSK）和 2.09 dB（16-QAM）。
-- 在线性 AWGN 信道下，两种波形的 BER 接近。
-- 在所用瑞利多径信道和 ZF 接收机下，DFT-s-OFDM 的 BER 较高，较低 PAPR 并不意味着所有情况下 BER 都更低。
-- 在所用硬限幅功放模型下，DFT-s-OFDM 对限幅的敏感程度较低；该结果不直接代表实际功放效率或手机续航。
+## Simulation setup
 
-这是简化的 5G 上行波形课程仿真，并非完整的 3GPP NR 链路实现。详细假设和指标定义见 [实验设计说明](02_MATLAB仿真/实验设计说明.txt)。
+| Setting | Value |
+|---|---|
+| Base FFT size / active subcarriers | 256 / 72 contiguous subcarriers |
+| Base cyclic prefix / waveform oversampling | 18 samples / 4 times |
+| Subcarrier spacing | 15 kHz |
+| Modulation and coding | QPSK and Gray-coded 16-QAM; no channel coding |
+| Linear channels | AWGN and four-tap Rayleigh multipath |
+| Receiver | Perfect channel knowledge and ZF equalization |
+| Amplifier model | Memoryless hard limiter with matched mean input power |
+
+See the [experiment definitions](02_MATLAB仿真/实验设计说明.txt) for noise scaling, sampling budgets, gain calibration and metric definitions.
+
+## Reports and interpretation
+
+The [English report](01_测验报告/英文报告_测验版.docx) and [Chinese report](01_测验报告/中文报告_测验版.docx) are editable coursework drafts with equations, figures, references and a MATLAB code appendix. The Chinese file is the locally saved version from 2026-11-05; the English file is the current English test draft. They can be revised independently.
+
+The hard-limiter results describe this simulation model. They do not measure amplifier efficiency, battery life or network coverage. The Rayleigh result also depends on the chosen receiver; this comparison does not establish that one waveform is universally better.
+
+## Repository guide
+
+| Directory | Contents |
+|---|---|
+| [`01_测验报告/`](01_测验报告/) | Chinese and English Word report drafts |
+| [`02_MATLAB仿真/`](02_MATLAB仿真/) | Runnable MATLAB source and experiment definitions |
+| [`02_MATLAB仿真/完整结果_20261027_132725/`](02_MATLAB仿真/完整结果_20261027_132725/) | Six PNG/PDF figures, editable FIG files, CSV/MAT data and execution records |
+| [`03_参考文献/`](03_参考文献/) | 17 English research-paper references, BibTeX and verification records |
